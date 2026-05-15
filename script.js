@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll('section, .menu-card, .info-card').forEach(el => {
+    document.querySelectorAll('section, .menu-card, .info-card, .sabor-item').forEach(el => {
         el.classList.add('reveal');
         observer.observe(el);
     });
